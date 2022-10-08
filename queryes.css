@@ -1,0 +1,122 @@
+
+
+
+@media (max-width: 550px){
+.chooses{
+	margin-top: 7%;
+	}
+}
+
+@media (max-width: 750px) {
+.otazka p{
+	font-size: 18px;
+	}
+}
+@media (max-width: 770px){
+.navbar-nav {
+    text-align: center;
+    padding-left: 0%;
+	}
+	.index-title{
+	font-size: 50px;
+	}
+	.quiz-wrapper .options ul li {
+		width: 44%;
+	}	
+	.quiz-wrapper {
+		width: 100%;
+	}
+}
+
+
+
+
+@media (min-width: 767px) and (max-width: 909px) {
+	.navbar-nav{
+	padding-left: 9%;
+	}
+	
+}
+@media (max-width: 991.98px)  {
+	.squareContainer{
+		width: 100%;
+	}
+	.popisSquare{
+		min-height: auto;
+	}
+	.quiz-wrapper {
+		width: 100%;
+	}
+}
+
+
+
+
+
+@media (min-width: 1100px){
+	.nav-item:hover{
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	}
+}
+
+
+
+
+@media (max-width: 1100px){
+	.chooses a img{
+	opacity: 100%;
+	}
+	.chooses a img:hover{
+	opacity: 100%;
+	box-shadow: none;
+	}
+	.chooses-fastFacts a img{
+	opacity: 100%;
+	}
+	.chooses-fastFacts a img:hover{
+	opacity: 100%;
+	box-shadow: none;
+	}
+	.fastFacts-btn a:hover{
+	box-shadow: none;
+	}
+
+}
+
+
+@media (max-width: 1199px){
+.chooses a img {
+    	width: 70%
+	}
+}
+
+
+
+@media (max-width: 474px){
+	.index-title{
+	font-size: 30px;
+	}
+	.quiz-wrapper .options ul li {
+		width: 100%;
+	}
+	.quiz-wrapper .question {
+		font-size: 20px;
+	}
+	.quiz-wrapper {
+		margin: 10px auto;
+		padding: 5px;
+	}
+	.container, .container-fluid, .container-sm, .container-md, .container-lg, .container-xl {
+		padding-right: 5px;
+		padding-left: 5px;
+	}
+	.quiz-wrapper .options ul li {
+		margin: 7px;
+		padding: 10px;	
+		text-align: center;
+	}
+	.quiz-wrapper .score .score-card{
+		max-width: 53%;
+	}
+}

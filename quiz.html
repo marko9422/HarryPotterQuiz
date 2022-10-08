@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>HP</title>
+	<link rel="stylesheet" href="bootstrap-4.6.0-dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="queryes.css">
+	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<main class="container">
+	<div class="quiz-wrapper row">       
+		<div id="questionBox" class="question">
+			Sample Question
+		</div>
+		<div id='options' class="options">
+			<ul id="ul">
+				<li id="opt1" onclick="btn_a(this)">a</li>
+				<li id="opt2" onclick="btn_a(this)">b</li>
+				<li id="opt3" onclick="btn_a(this)">c</li>
+				<li id="opt4" onclick="btn_a(this)">d</li>
+			</ul>
+		</div>
+		<div class="score">
+			<div class="score-card">
+				SCORE: <span id="scoreCard">0</span>
+			</div>
+			<div class="next">
+				<button id="btnNext" type="button" onclick="next()">
+				Next
+				</button>
+			</div>
+
+			<div class="again">
+				<button class='againBtn' id="againBtn" type="button" onclick="again()">play again</button>
+			</div>
+
+		</div>
+	</div>
+</main>
+
+</body>
+	<script src="js.js"></script>
+</html>
